@@ -26,9 +26,9 @@ const database = {
         { id: 5, metal: "Palladium", price: 1241.0 }
     ],
     jewelryTypes: [
-        {id: 1, name: "Ring"},
-        {id: 2, name: "Earring"},
-        {id: 3, name: "Necklace"},
+        {id: 1, name: "Ring", multiplier: 1},
+        {id: 2, name: "Earring", multiplier: 2},
+        {id: 3, name: "Necklace", multiplier: 4},
 
     ],
     customOrders: [
@@ -37,6 +37,7 @@ const database = {
             metalId: 3,
             sizeId: 2,
             styleId: 3,
+            jewelryTypeId: 1,
             timestamp: 1614659931693
         }
     ],
