@@ -20,3 +20,14 @@
 .customOrders {
     margin: 1rem 0 2rem 2rem;
 }
+
+.types ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1em;
+}
+
+.types li {
+    display: flex;
+    padding: 0.5em;
+}
